@@ -19,7 +19,7 @@ class Constructor_Test{
         name = "Mahbubur Rahman Chowdhury";
         System.out.println("ID = " +id+ ", GPA = "+gpa+ ", Name  = "+name);
     }
-    //Constructor with parameter
+    //Constructor with parameter (Constructor Overloading)
     Constructor_Test(int id,double gpa, String name){
         System.out.println("ID = " +id+ " GPA = "+gpa+ " Name  = "+name);
     }
